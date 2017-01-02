@@ -5,9 +5,12 @@ import java.awt.*;
  */
 public class RLine {
 
-    int x=0+(int)(Math.random()*250);
-    int y=0;
+    int x=0+(int)(Math.random()*350);
+    int y=2;
     int ySpeed=1;
+
+    public RLine(int randX, int randY) {
+    }
 
 
     public void update(){
