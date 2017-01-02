@@ -22,7 +22,7 @@ public class RPanel extends JPanel implements ActionListener {
         rLine = new ArrayList<RLine>();
         //rainLn.update();
 
-        for (int i=0;i<100;i++){ 
+        for (int i=0;i<100;i++){
             Random rand = new Random();
             int randX = rand.nextInt(640);
             int randY = rand.nextInt(360);

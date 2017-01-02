@@ -7,7 +7,7 @@ public class RLine {
 
     int x=0+(int)(Math.random()*650);
     int y=0+(int)(Math.random()*350);
-    int ySpeed=1;
+    int ySpeed=0+(int)(Math.random()*10);
 
     public RLine(int randX, int randY) {
     }
