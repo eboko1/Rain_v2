@@ -8,6 +8,7 @@ public class RLine {
     int x=0+(int)(Math.random()*650);
     int y=0+(int)(Math.random()*350);
     int ySpeed=0+(int)(Math.random()*10);
+    int len =(int)(Math.random()*20);
 
     public RLine(int randX, int randY) {
     }
@@ -21,7 +22,7 @@ public class RLine {
     }
     public void draw(Graphics g){
         g.setColor(new Color (138,43,226));
-        g.drawLine(x,y,x,y+15);
+        g.drawLine(x,y,x,y+len);
 
 
     }
